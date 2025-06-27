@@ -10,11 +10,10 @@ export default function Home({ show }: { show: boolean }) {
     }`;
 
   return (
-    <div className="fixed inset-0 flex flex-col justify-center items-center overflow-hidden">
+    <div className="min-h-screen flex flex-col items-center justify-center p-8">
       {/* Neon accent blur */}
-      <div className="pointer-events-none absolute top-4 right-4 w-[100px] h-[100px] sm:w-[160px] sm:h-[160px] rounded-full bg-cyan-400 opacity-30 blur-xl z-0" />
       <div className="pointer-events-none absolute bottom-4 left-4 w-[80px] h-[80px] sm:w-[120px] sm:h-[120px] rounded-full bg-[#0ff0fc] opacity-20 blur-lg z-0" />
-      <main className="flex-1 flex flex-col justify-center items-center gap-6 z-10 w-full">
+      <main className="flex flex-col justify-center items-center gap-6 z-10 w-full">
         {/* Profile Picture - responsive */}
         <div
           className={`overflow-hidden rounded-full w-[180px] h-[180px] sm:w-[250px] sm:h-[250px] md:w-[320px] md:h-[320px] flex items-center justify-center border-[4px] md:border-[6px] border-black bg-black ${popAnim(
@@ -45,13 +44,13 @@ export default function Home({ show }: { show: boolean }) {
             show
           )}`}
         >
-          I'm a Software Engineer passionate about building. Welcome to my
+          I'm a Software Engineer passionate about creating cool things. Welcome to my
           portfolio!
         </p>
       </main>
       {/* Footer */}
       <footer
-        className={`flex gap-8 flex-wrap items-center justify-center z-10 ${popAnim(
+        className={`flex gap-8 flex-wrap items-center justify-center z-10 mt-16 ${popAnim(
           show
         )}`}
         style={{ marginBottom: "2rem" }}
@@ -67,14 +66,15 @@ export default function Home({ show }: { show: boolean }) {
             aria-hidden
             src="/github.svg"
             alt="GitHub icon"
-            width={64}
-            height={64}
-            className="sm:w-[64px] sm:h-[64px]"
+            width={80}
+            height={80}
+            className="w-16 h-16 sm:w-20 sm:h-20" // fills more of the button
+            style={{ objectFit: "contain" }}
           />
         </a>
         <a
           className="flex items-center justify-center rounded-full bg-cyan-900/40 hover:bg-cyan-500/80 transition-colors shadow-lg w-20 h-20 sm:w-24 sm:h-24"
-          href="https://www.linkedin.com/in/dimitrios-mallidis/"
+          href="https://www.linkedin.com/in/dimitrios-mallidis-027905306/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
@@ -83,9 +83,10 @@ export default function Home({ show }: { show: boolean }) {
             aria-hidden
             src="/linkedin.svg"
             alt="LinkedIn icon"
-            width={64}
-            height={64}
-            className="sm:w-[64px] sm:h-[64px]"
+            width={80}
+            height={80}
+            className="w-16 h-16 sm:w-20 sm:h-20" // fills more of the button
+            style={{ objectFit: "contain" }}
           />
         </a>
       </footer>

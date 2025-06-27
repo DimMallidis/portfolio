@@ -71,7 +71,7 @@ export default function Sidebar({ show }: { show: boolean }) {
 							<Link
 								key={l.href}
 								href={l.href}
-								className={`flex items-center gap-5 px-7 py-5 rounded-xl font-bold text-xl transition-all duration-200 w-60 justify-center shadow
+								className={`flex flex-row items-center gap-5 pl-6 pr-4 py-5 rounded-xl font-bold text-xl transition-all duration-200 w-60 justify-start shadow
                                     ${
 										active
 											? "bg-cyan-500 text-white scale-105 shadow-cyan-400/40"

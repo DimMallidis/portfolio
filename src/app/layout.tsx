@@ -4,12 +4,18 @@ import ClientRoot from "./ClientRoot";
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="h-full min-h-screen">
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body
-        className="h-full min-h-screen flex"
+        className="h-full min-h-screen flex animated-bg"
         style={{
           background:
-            "linear-gradient(110deg, #000 0%, #0f172a 40%, #0ea5e9 60%, #000 100%)",
-          backgroundSize: "100vw 100vh",
+            "linear-gradient(110deg, #000 0%, #0a192f 40%, #0369a1 60%, #000 100%)",
+          backgroundSize: "200vw 200vh",
           backgroundRepeat: "no-repeat",
           backgroundAttachment: "fixed",
         }}
