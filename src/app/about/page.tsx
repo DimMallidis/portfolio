@@ -1,4 +1,5 @@
 import React from "react";
+import EmailObfuscated from "./EmailObfuscated";
 
 export default function About() {
   return (
@@ -13,10 +14,13 @@ export default function About() {
         {/* Contact Info */}
         <div className="flex flex-col items-center space-y-2">
           <span className="text-3xl font-bold text-cyan-200 tracking-wide" style={{ fontFamily: "'Montserrat', 'Segoe UI', 'Arial', sans-serif" }}>
-            Δημήτριος Μαλλίδης
+            Dimitrios Mallidis
           </span>
           <span className="text-lg text-cyan-100">Athens, Kifissia, Greece</span>
-          <span className="text-lg text-cyan-100">📧 dimitriosmallidis@gmail.com</span>
+          {/* Obfuscated email to protect from bots */}
+          <span className="text-lg text-cyan-100">
+            📧 <EmailObfuscated />
+          </span>
         </div>
         {/* Education */}
         <div className="w-full">
