@@ -11,8 +11,6 @@ export function HomeContent({ show }: { show: boolean }) {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-8">
-      {/* Neon accent blur */}
-      <div className="pointer-events-none absolute bottom-4 left-4 w-[80px] h-[80px] sm:w-[120px] sm:h-[120px] rounded-full bg-[#0ff0fc] opacity-20 blur-lg z-0" />
       <main className="flex flex-col justify-center items-center gap-6 z-10 w-full">
         {/* Profile Picture - responsive */}
         <div
@@ -62,14 +60,10 @@ export function HomeContent({ show }: { show: boolean }) {
           rel="noopener noreferrer"
           aria-label="GitHub"
         >
-          <Image
-            aria-hidden
+          <img
             src="/github.svg"
             alt="GitHub icon"
-            width={80}
-            height={80}
-            className="w-16 h-16 sm:w-20 sm:h-20" // fills more of the button
-            style={{ objectFit: "contain" }}
+            className="w-16 h-16 sm:w-20 sm:h-20 object-contain"
           />
         </a>
         <a
@@ -79,14 +73,10 @@ export function HomeContent({ show }: { show: boolean }) {
           rel="noopener noreferrer"
           aria-label="LinkedIn"
         >
-          <Image
-            aria-hidden
+          <img
             src="/linkedin.svg"
             alt="LinkedIn icon"
-            width={80}
-            height={80}
-            className="w-16 h-16 sm:w-20 sm:h-20" // fills more of the button
-            style={{ objectFit: "contain" }}
+            className="w-16 h-16 sm:w-20 sm:h-20 object-contain"
           />
         </a>
       </footer>
