@@ -38,7 +38,7 @@ export default function About() {
         <div className="w-full">
           <SectionTitle>Education</SectionTitle>
           <div className="flex flex-col gap-4">
-            {SITE_CONFIG.education.map((edu, index) => (
+            {SITE_CONFIG.education.map((edu) => (
               <div
                 key={edu.school}
                 className={`bg-cyan-900/30 rounded-lg p-3 sm:p-4 lg:p-6 shadow hover:bg-cyan-900/40 transition-colors`}

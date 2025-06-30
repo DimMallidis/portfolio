@@ -15,7 +15,7 @@ export default function Contact() {
           Get In Touch
         </h1>
         <p className="text-base sm:text-lg md:text-xl text-cyan-100 opacity-80">
-          Let's connect and discuss opportunities
+          Let&apos;s connect and discuss opportunities
         </p>
       </div>
 
@@ -110,7 +110,7 @@ export default function Contact() {
         {/* Call to Action */}
         <div className="mt-8 text-center">
           <p className="text-xs sm:text-sm text-cyan-100 opacity-80 italic">
-            "Always eager to learn and collaborate on exciting projects"
+            &quot;Always eager to learn and collaborate on exciting projects&quot;
           </p>
         </div>
       </div>

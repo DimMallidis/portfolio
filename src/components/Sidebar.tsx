@@ -56,7 +56,6 @@ const links = [
 
 export default function Sidebar({ show }: { show: boolean }) {
     const pathname = usePathname();
-    const [homeActive, setHomeActive] = useState(false);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     const closeMobileMenu = () => setMobileMenuOpen(false);
@@ -117,7 +116,7 @@ export default function Sidebar({ show }: { show: boolean }) {
                             <g>
                                 <path
                                     d="M3 12L12 5L21 12"
-                                    stroke={homeActive ? "#22d3ee" : "#94a3b8"}
+                                    stroke={pathname === "/" ? "#22d3ee" : "#94a3b8"}
                                     strokeWidth="2.5"
                                     strokeLinecap="round"
                                     strokeLinejoin="round"

@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 
 export default function Blog() {
@@ -17,7 +16,7 @@ export default function Blog() {
           fontFamily: "'Montserrat', 'Segoe UI', 'Arial', sans-serif",
         }}
       >
-        Welcome to my blog! It's my way of journaling everything I'm up to.
+        Welcome to my blog! It&apos;s my way of journaling everything I&apos;m up to.
       </p>
       <div className="w-full max-w-2xl space-y-6">
         {/* New event post */}
