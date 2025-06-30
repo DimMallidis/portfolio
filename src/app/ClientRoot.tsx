@@ -18,7 +18,7 @@ export default function ClientRoot({ children }: { children: React.ReactNode }) 
         sessionStorage.setItem("hasAnimated", "true");
       }, 100);
     } else {
-      setShow(true); // Instantly show content on navigation, no animation
+      setShow(true);
     }
   }, []);
 
@@ -27,7 +27,7 @@ export default function ClientRoot({ children }: { children: React.ReactNode }) 
   return (
     <>
       <Sidebar show={show} />
-      <main className="flex-1 overflow-y-auto lg:pl-80 p-6 lg:p-10">
+      <main className="flex-1 overflow-y-auto w-full lg:ml-80 p-4 sm:p-6 lg:p-10">
         {pathname === "/" ? <HomeWithShow show={show} /> : children}
       </main>
     </>
