@@ -11,6 +11,8 @@ export function HomeContent({ show }: { show: boolean }) {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-8">
+      {/* Neon accent blur */}
+      <div className="pointer-events-none absolute bottom-4 left-4 w-[80px] h-[80px] sm:w-[120px] sm:h-[120px] rounded-full bg-[#0ff0fc] opacity-20 blur-lg z-0" />
       <main className="flex flex-col justify-center items-center gap-6 z-10 w-full">
         {/* Profile Picture - responsive */}
         <div
