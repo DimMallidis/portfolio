@@ -60,10 +60,14 @@ export function HomeContent({ show }: { show: boolean }) {
           rel="noopener noreferrer"
           aria-label="GitHub"
         >
-          <img
+          <Image
+            aria-hidden
             src="/github.svg"
             alt="GitHub icon"
-            className="w-16 h-16 sm:w-20 sm:h-20 object-contain"
+            width={80}
+            height={80}
+            className="w-16 h-16 sm:w-20 sm:h-20"
+            style={{ objectFit: "contain" }}
           />
         </a>
         <a
@@ -73,10 +77,14 @@ export function HomeContent({ show }: { show: boolean }) {
           rel="noopener noreferrer"
           aria-label="LinkedIn"
         >
-          <img
+          <Image
+            aria-hidden
             src="/linkedin.png"
             alt="LinkedIn icon"
-            className="w-16 h-16 sm:w-20 sm:h-20 object-contain"
+            width={80}
+            height={80}
+            className="w-16 h-16 sm:w-20 sm:h-20"
+            style={{ objectFit: "contain" }}
           />
         </a>
       </footer>

@@ -36,7 +36,7 @@ export default function Home({ show }: { show: boolean }) {
           )}`}
           style={{ fontFamily: "'Montserrat', 'Segoe UI', 'Arial', sans-serif" }}
         >
-          Hi, I'm Dimitris!
+          Hi, I&apos;m Dimitris!
         </h1>
         {/* Description */}
         <p
@@ -44,7 +44,7 @@ export default function Home({ show }: { show: boolean }) {
             show
           )}`}
         >
-          I'm a Software Engineer passionate about creating cool things. Welcome to my
+          I&apos;m a Software Engineer passionate about creating cool things. Welcome to my
           portfolio!
         </p>
       </main>
@@ -90,10 +90,6 @@ export default function Home({ show }: { show: boolean }) {
           />
         </a>
       </footer>
-      {/* Montserrat font import for the heading */}
-      <style jsx global>{`
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-      `}</style>
     </div>
   );
 }
