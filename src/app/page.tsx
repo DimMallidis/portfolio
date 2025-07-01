@@ -81,7 +81,7 @@ export default function Home({ show }: { show: boolean }) {
         >
           <Image
             aria-hidden
-            src="/linkedin.svg"
+            src="/linkedin.png"
             alt="LinkedIn icon"
             width={80}
             height={80}

@@ -74,7 +74,7 @@ export function HomeContent({ show }: { show: boolean }) {
           aria-label="LinkedIn"
         >
           <img
-            src="/linkedin.svg"
+            src="/linkedin.png"
             alt="LinkedIn icon"
             className="w-16 h-16 sm:w-20 sm:h-20 object-contain"
           />
