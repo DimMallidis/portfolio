@@ -40,3 +40,122 @@ body {
 .animated-bg {
   animation: move-bg 20s ease-in-out infinite;
 }
+
+/* Add to your existing CSS */
+.text-responsive {
+  font-size: clamp(1rem, 5vw, 1.25rem);
+}
+
+.heading-responsive {
+  font-size: clamp(1.5rem, 8vw, 4rem);
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Ensure text wraps between words, not within them */
+* {
+  overflow-wrap: break-word;
+}
+
+.hidden {
+  display: none;
+}
+
+.lg\:flex {
+  display: flex;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.shadow-2xl {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.7), 0 4px 6px -2px rgba(0, 0, 0, 0.7);
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.z-40 {
+  z-index: 40;
+}
+
+.transition-transform {
+  transition-property: transform;
+}
+
+.duration-1000 {
+  transition-duration: 1000ms;
+}
+
+.ease-out {
+  transition-timing-function: ease-out;
+}
+
+.translate-x-0 {
+  transform: translateX(0);
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
+.scale-100 {
+  transform: scale(1);
+}
+
+.-translate-x-20 {
+  transform: translateX(-5rem);
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.scale-95 {
+  transform: scale(0.95);
+}

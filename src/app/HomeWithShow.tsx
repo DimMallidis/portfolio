@@ -1,6 +1,6 @@
 "use client";
-import Home from "./page";
+import { HomeContent } from "@/components/HomeContent";
 
 export default function HomeWithShow({ show }: { show: boolean }) {
-  return <Home show={show} />;
+  return <HomeContent show={show} />;
 }

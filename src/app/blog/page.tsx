@@ -1,11 +1,10 @@
-import Link from "next/link";
 import Image from "next/image";
 
 export default function Blog() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-8">
       <h1
-        className="text-5xl sm:text-6xl font-extrabold mb-3 text-cyan-300 drop-shadow-lg tracking-tight text-center"
+        className="text-5xl sm:text-6xl font-extrabold mb-3 text-cyan-200 drop-shadow-lg tracking-tight text-center"
         style={{ fontFamily: "'Montserrat', 'Segoe UI', 'Arial', sans-serif" }}
       >
         Blog
@@ -17,7 +16,7 @@ export default function Blog() {
           fontFamily: "'Montserrat', 'Segoe UI', 'Arial', sans-serif",
         }}
       >
-        Welcome to my blog! It's my way of journaling everything I'm up to.
+        Welcome to my blog! It&apos;s my way of journaling everything I&apos;m up to.
       </p>
       <div className="w-full max-w-2xl space-y-6">
         {/* New event post */}
