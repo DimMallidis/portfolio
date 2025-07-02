@@ -88,27 +88,6 @@ Optimized for:
 
 ---
 
-## 🔧 Customization
-
-**Colors:**  
-Edit `tailwind.config.ts`:
-```typescript
-colors: {
-    cyan: {
-        100: '#e0f7fa',
-        200: '#b2ebf2',
-        // ...
-    }
-}
-```
-
-**Content:**  
-- Update info in page components
-- Replace `/public/profile.jpg`
-- Update `/public/dimitrios_mallidis_cv.pdf`
-
----
-
 ## 🚀 Deployment
 
 Deployed via [Vercel](https://vercel.com/).
@@ -118,7 +97,7 @@ Deployed via [Vercel](https://vercel.com/).
 ## 📞 Contact
 
 **Dimitrios Mallidis**  
-- 🌐 Portfolio: [Your Portfolio URL]
+- 🌐 Portfolio: https://dimitriosmallidis.com/
 - 💼 [LinkedIn](https://www.linkedin.com/in/dimitrios-mallidis-027905306/)
 - 🐱 [GitHub](https://github.com/DimMallidis)
 - 📧 Email: [Contact through portfolio]
