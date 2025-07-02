@@ -1,6 +1,6 @@
 # 🚀 Dimitrios Mallidis - Portfolio
 
-A modern, responsive portfolio website showcasing my journey as a Software Engineering student and developer. Built with Next.js, TypeScript, and styled with Tailwind CSS.
+A modern, responsive portfolio website showcasing my journey as a Software Engineering student and developer. Built with Next.js, TypeScript, and styled with Tailwind CSS. Check it out: https://dimitriosmallidis.com/
 
 ---
 
