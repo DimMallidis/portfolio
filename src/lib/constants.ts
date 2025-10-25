@@ -22,7 +22,7 @@ export const SITE_CONFIG = {
   ],
   skills: [
     "Michigan Proficiency English Language Degree",
-    "Junior Software Engineer: C, C++, Python, SQL",
+    "Junior Software Engineer: C, C++, Python, SQL, HTML, CSS, TypeScript",
   ],
   projects: [
     {
