@@ -10,7 +10,7 @@ export default function Blog() {
         Blog
       </h1>
       <p
-        className="text-xl sm:text-2xl max-w-2xl text-center mb-10 text-cyan-100 font-medium drop-shadow"
+        className="text-xl sm:text-2xl max-w-4xl text-center mb-10 text-cyan-100 font-medium drop-shadow"
         style={{
           letterSpacing: "0.01em",
           fontFamily: "'Montserrat', 'Segoe UI', 'Arial', sans-serif",
@@ -18,7 +18,7 @@ export default function Blog() {
       >
         Welcome to my blog! It&apos;s my way of journaling everything I&apos;m up to.
       </p>
-      <div className="w-full max-w-2xl space-y-6">
+      <div className="w-full max-w-4xl space-y-6">
         {/* New event post */}
         <div className="bg-white/10 rounded-xl p-8 shadow-lg border border-cyan-700 flex flex-col items-center">
           <Image
@@ -38,6 +38,42 @@ In May 2025, I delivered a speech at the 11th International Summer University in
           </span>
           <a
             href="https://summerschool.ac.uoi.gr/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-block text-cyan-300 underline hover:text-cyan-400 transition-colors text-sm"
+          >
+            Learn more about the conference
+          </a>
+        </div>
+        {/* Mini Summer University post */}
+        <div className="bg-white/10 rounded-xl p-8 shadow-lg border border-cyan-700 flex flex-col items-center">
+          <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+            <Image
+              src="/6ο_μικρό_θερινό_εγώ.jpg"
+              alt="6ο μικρό θερινό εγώ"
+              width={900}
+              height={600}
+              className="rounded-lg object-cover w-full h-auto"
+            />
+            <Image
+              src="/6ο_μικρό_θερινό_κοινο.jpg"
+              alt="6ο μικρό θερινό κοινο"
+              width={900}
+              height={600}
+              className="rounded-lg object-cover w-full h-auto"
+            />
+          </div>
+          <h2 className="text-2xl font-semibold text-cyan-200 mb-3 text-center" style={{ fontFamily: "'Montserrat', 'Segoe UI', 'Arial', sans-serif" }}>
+            Mallidis, D. (2025) – The Language of Artificial Intelligence: From Algorithm to Cognition.
+          </h2>
+          <p className="text-base text-neutral-300 text-justify mb-3" style={{ fontFamily: "'Segoe UI', 'Arial', sans-serif" }}>
+            In August 2025, I delivered a speech at the Mini Summer University held at the University of Gjirokastër, focusing on the topic “The Language of Artificial Intelligence: From Algorithm to Cognition.” The event brought together participants from various academic and institutional backgrounds and was organized under the auspices of the Hellenic Parliament and the General Secretariat for Greeks Abroad.
+          </p>
+          <span className="text-xs text-cyan-200">
+            Gjirokastër, August 25-28, 2025
+          </span>
+          <a
+            href="https://www.omilosapofoiton.gr/"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-4 inline-block text-cyan-300 underline hover:text-cyan-400 transition-colors text-sm"
