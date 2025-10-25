@@ -67,7 +67,7 @@ In May 2025, I delivered a speech at the 11th International Summer University in
             Mallidis, D. (2025) – The Language of Artificial Intelligence: From Algorithm to Cognition.
           </h2>
           <p className="text-base text-neutral-300 text-justify mb-3" style={{ fontFamily: "'Segoe UI', 'Arial', sans-serif" }}>
-            In August 2025, I delivered a speech at the Mini Summer University held at the University of Gjirokastër, focusing on the topic “The Language of Artificial Intelligence: From Algorithm to Cognition.” The event brought together participants from various academic and institutional backgrounds and was organized under the auspices of the International Summer University “Greek Language, Culture and Media” and the Laboratory for the Study of Social Issues, Mass Media and Education of the Department of Early Childhood Education, School of Education, University of Ioannina.
+            In August 2025, I delivered a speech at the 6th Junior Summer School held at the University of Gjirokastër, focusing on the topic “The Language of Artificial Intelligence: From Algorithm to Cognition.” The event brought together participants from various academic and institutional backgrounds and was organized under the auspices of the International Summer University “Greek Language, Culture and Media” and the Laboratory for the Study of Social Issues, Mass Media and Education of the Department of Early Childhood Education, School of Education, University of Ioannina.
           </p>
           <span className="text-xs text-cyan-200">
             Gjirokastër, August 25-28, 2025
